@@ -1,3 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}message page{% endblock %}
+{% block title %}{{message}} {{page}}{% endblock %}
+
+{% block content %} {{message}}                                          
+{% endblock %}

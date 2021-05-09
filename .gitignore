@@ -1,6 +1,10 @@
-# Jupyter Notebook
-.ipynb_checkpoints
-#every database is going to be ignored, not going to be added to repo
-*.db 
-
+**/env/
+*.sqlite3
+#to ignore every database when pushing to github
+*.db
+.DS_Store
+**/__pycache__/
 *.pyc
+
+#jupyter notebooks
+.ipynb_checkpoints
